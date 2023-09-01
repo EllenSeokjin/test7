@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <style>
+        body{
+            color: back;
+            background-color: rgb(251, 226, 83); 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+       .top{
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+       }
+
+       .logo{
+        height: 50px;
+        width: 50px;
+        background-image: url(logo.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 20px;
+       }
+
+       ul{
+        display: flex;
+        margin-left: 50px;
+        list-style-type: none;
+       }
+      
+       a{
+        margin-left: 20px;
+        text-decoration: none;
+        color: black;
+        font-size: bolder;
+       }
+
+       a:hover{
+        border: 1px orangered solid;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: orangered;
+        transition: 0.6s;
+       }
+
+
+       .msg{
+        font-style: italic;
+        margin: 20px;
+       }
+       main{
+        display: flex;
+       }
+
+       .illustration{
+        min-width: 250px;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+       background-image: url(hamburger-removebg-preview.png);
+        margin-left: 250px;
+        margin-top: 60px;
+       }
+
+       .texto{
+        margin: 40px;
+       }
+
+       h1{
+        font-size: 60px;
+       }
+
+        
+    </style>
+</head>
+<body>
+    <nav class="top">
+        <div class="logo">
+    
+        </div class="links">
+        <ul>
+            <li><a href="">Home</a></li>
+             <li><a href="">Order</a></li>
+             <li><a href="">Contact</a></li>
+             <li><a href="">About</a></li>
+        </ul>
+        <div class="msg">
+           <p>Lorem ipsum dolor sit amet consectetur <br>
+             adipisicing elit. Voluptatem est id nesciunt.</p>
+        </div>
+    </nav>
+        <main>
+            <div class="texto">
+                <h1 class="title"> Best Food <br>
+                    for Your Taste </h1>
+                    <p> Lorem, ipsum dolor sit amet consectetur <br>
+                        adipisicing elit. At deserunt id enim dolorum <br>
+                         aliquid adipisci </p>
+            </div>
+            <aside class="illustration">
+            </aside>
+        </main>
+    
+</body>
+</html>
